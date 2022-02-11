@@ -30,6 +30,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: ghp.avci.me
 
       - name: Purge CloudFlare
         run: 'curl -X POST "https://api.cloudflare.com/client/v4/zones/c02027ef35daf76a6910c5682929e7d4/purge_cache"
