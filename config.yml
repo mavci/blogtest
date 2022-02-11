@@ -2,4 +2,3 @@ baseURL: https://ghp.avci.me/
 languageCode: en-us
 title: My New Hugo Site
 theme: PaperMod
-publishDir: docs
