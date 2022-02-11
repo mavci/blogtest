@@ -19,6 +19,9 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
+cover:
+    image: "https://www.phpr.org/wp-content/uploads/2017/01/f663e830083e72f4784c7d65007f8f22-768x480.jpg" # image path/url
+    hidden: false # only hide on current single page
 ---
 
 hello
