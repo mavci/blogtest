@@ -36,6 +36,10 @@ function poll_build_status() {
       echo "Success."
       return 0
     fi
+    curl \
+      --user "${GITHUB_USER}:${GITHUB_TOKEN}" \
+      --header "Accept: application/vnd.github.v3+json" \
+      "https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/pages/builds/latest"
     echo "  Sleeping ${INTERVAL_SECONDS} seconds until next status poll ..."
     sleep "${INTERVAL_SECONDS}"
     (( waited_seconds += INTERVAL_SECONDS ))
