@@ -1,0 +1,14 @@
+name: cfpurge
+
+on:
+  deployment
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Purge CloudFlare
+        run: 'curl -X POST "https://api.cloudflare.com/client/v4/zones/c02027ef35daf76a6910c5682929e7d4/purge_cache"
+            -H "X-Auth-Email: ${{ secrets.CLOUDFLARE_EMAIL }}"
+            -H "X-Auth-Key: ${{ secrets.CLOUDFLARE_TOKEN }}"
+            -H "Content-Type: application/json"
+            --data ''{"purge_everything":true}\'''
