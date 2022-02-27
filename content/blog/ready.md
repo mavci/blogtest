@@ -1,11 +1,12 @@
 ---
-title: "Ready"
+title: "Ready 2"
 date: 2022-02-27T14:17:00+03:00
+lastmod: 2022-02-27T14:43:00+03:00
 tags: ["ready"]
 author: "Musa Avcı"
 ---
 
-# Ready
+# Ready 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit sodales nisi ut ultrices. Sed ac efficitur enim. Vivamus mattis pellentesque sagittis. Vestibulum eu viverra nisi. Ut at libero eros. Aenean ac dui risus. Sed placerat elementum arcu, sed suscipit nunc sodales vel.
 
