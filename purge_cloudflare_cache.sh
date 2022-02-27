@@ -5,7 +5,7 @@ readonly INTERVAL_SECONDS=5
 readonly TIMEOUT_SECONDS=120
 
 readonly GITHUB_USER=mavci
-readonly GITHUB_REPO=mavci.github.io
+readonly GITHUB_REPO=blogtest
 
 ##################################################
 # Poll status of latest GitHub Pages build every INTERVAL_SECONDS seconds for up
