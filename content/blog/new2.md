@@ -1,5 +1,5 @@
 ---
-title: "New 2 Test Cache2"
+title: "New 2 Test Cache3"
 date: 2022-02-20T09:30:03+00:00
 tags: ["first"]
 author: "Me"
@@ -19,9 +19,11 @@ ShowPostNavLinks: true
 ---
 
 
-# New 2 Test Cache2
+# New 2 Test Cache3
 
 ### sub title
+
+purge
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit sodales nisi ut ultrices. Sed ac efficitur enim. Vivamus mattis pellentesque sagittis. Vestibulum eu viverra nisi. Ut at libero eros. Aenean ac dui risus. Sed placerat elementum arcu, sed suscipit nunc sodales vel.
 
